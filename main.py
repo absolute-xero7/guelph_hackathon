@@ -3,7 +3,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Iterable, Optional
 
-@dataclass
 class Player:
     """A player participating in the game.
     
@@ -23,7 +22,6 @@ class Player:
         self.health = 50
         self.move = move
 
-@dataclass
 class Game:
     """Proceedings of the game."""
 
